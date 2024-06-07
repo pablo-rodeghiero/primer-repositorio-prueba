@@ -1,0 +1,8 @@
+Hola! Bienvenidos al primer taller de Git!
+
+Link al repositorio que usaremos: https://github.com/clubProgramacionUNViMe/primer-repositorio-prueba
+
+Configuración de credenciales 
+
+1)git config --global user.name "TU NOMBRE"
+2)git config --global user.email "TUCORREO@ejemplo.com"
