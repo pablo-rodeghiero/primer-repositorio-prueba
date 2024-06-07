@@ -1,41 +1,30 @@
 # Configuración Inicial para realizar el taller:
 
-### Creamos cuenta de GitHub
+1. Abrir una Git Bash (click derecho y seleccionamos en donde dice Open Git Bash Here) en la carpeta donde deseemos clonar este repositorio
 
-### Generamos un token yendo a: 
+2. Configuraremos nuestras credenciales con los siguientes comandos (Copiar y pegar en la terminal)
 
-1. Settings
- 
-2.  Developer Settings (Al fondo)
+   git config --global user.name "TU NOMBRE"
+   git config --global user.email "TuCorreo@ejemplo.com"
 
-3. Personal Access Tokens 
+3. Prepararemos nuestro archivo para clonar
 
-4. Generate New Token 
+4. En este caso utilizaremos este mismo. Si subimos arriba de todo tenemos la opción "Fork"
 
-5. Le ponemos un nombre 
+5. Una vez seleccionada esta opción tocamos el botón "Create Fork"
 
-6. Seleccionamos todas las opciones 
+6.  Parados en ese repositorio elegimos la opción "<> code"
 
-7. Copiamos el token y lo guardamos: Se muestra una única vez, así que guardenlo localmente. 
+7. Elegimos "Clone" con la opción HTTPS (que es la que está marcada por defecto) y copiamos el link 
 
-8. Creamos un repositorio en GitHub (O buscamos uno de alguien más).
+8. Vamos a una carpeta local, abrimos la terminal BASH en Windows o la común en Linux o Mac y escribimos: 
 
-9. En este caso utilizaremos este mismo. Si subimos arriba de todo tenemos la opción "Fork"
+`git clone [El link que nos copió en el paso 7]`  
 
-10. Una vez seleccionada esta opción tocamos el botón "Create Fork"
-
-11.  Parados en ese repositorio elegimos la opción "<> code"
-
-12. Elegimos "Clone" con la opción HTTPS (que es la que está marcada por defecto) y copiamos el link 
-
-13. Vamos a una carpeta local, abrimos la terminal BASH en Windows o la común en Linux o Mac y escribimos: 
-
-`git clone [El link que nos copió en el paso 12]`  
-
-14. Acá nos pedirá las credenciales que tenemos: 
+9. Acá nos pedirá las credenciales que tenemos: 
 El usuario de GitHub que creamos y como contraseña usaremos el token que generamos. 
 
-15. El proyecto se clonará correctamente.
+10. El proyecto se clonará correctamente.
 
 #### Aclaración: 
 También podemos iniciar el proyecto de manera local y subirlo a GitHub, pero tendríamos que configurar nuestra cuenta de manera local.
